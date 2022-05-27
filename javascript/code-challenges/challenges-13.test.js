@@ -76,6 +76,7 @@ const onlyOddChars = (str) => {
     i % 2 !== 0 ? result =result+ str[i] : '';
   }
   return result;
+
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -88,6 +89,7 @@ and returns a Boolean indicating whether all those strings contain ":)".
 const allHappy = (arr) => {
   return ((arr.filter(result=> !(result.includes(':)'))).length > 0) ? false : true);
 };
+
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 7 - Stretch Goal
