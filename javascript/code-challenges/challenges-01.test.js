@@ -11,6 +11,7 @@ const addOne = (arr) =>{
   let localArray=[];
   arr.forEach((element) => {
    localArray.push(element+ 1);
+
 });
 return localArray;
 }
@@ -24,6 +25,7 @@ Use `forEach` to loop over the input array. Modify each string, and add the upda
 
 const addExclamation = (arr) => {
   let stringArray=[];
+
   arr.forEach((element) => {
    stringArray.push(element+ "!");
 });
@@ -66,6 +68,7 @@ const speaker = (words, callback) => {
   let newArr=[];
   words.forEach(stringArray => {
     newArr.push(callback(stringArray));
+
   });
   return newArr;
 };
@@ -94,6 +97,7 @@ const addValues = (arr, value) => {
 const addNumbers = (num, arr, times, callback) => {
   for (let i = 0; i < times; i++) {
     callback(arr, num);
+    
   }
 
   return arr;
