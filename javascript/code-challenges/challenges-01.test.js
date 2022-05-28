@@ -125,7 +125,7 @@ const createList = (availableItems) => {
   let arrayOfList = [];
   availableItems.forEach((item) => {
     if (item.available === true) {
-      arrayOfList .push(item.name);
+      arrayOfList.push(item.name);
     }
   });
   return arrayOfList ;
