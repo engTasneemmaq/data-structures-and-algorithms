@@ -40,11 +40,11 @@ Write a function named addQuestion that, given an array of strings,
 ------------------------------------------------------------------------------------------------ */
 
 const addQuestion = (arr) => {
-  let stringArray =[];
+  let stringArr =[];
   arr.map(element =>{
-    stringArray.push(element+"?")
+    stringArr.push(element+"?")
   })
-  return stringArray;
+  return stringArr;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -77,11 +77,11 @@ output as your forLoopTwoToThe function from challenge 4, but uses forEach inste
 ------------------------------------------------------------------------------------------------ */
 
 const forEachTwoToThe = (arr) => {
-  let newArray = [];
+  let newArr = [];
   arr.forEach(element => {
-    newArray.push(Math.pow(2,element));
+    newArr.push(Math.pow(2,element));
   });
-  return newArray;
+  return newArr;
 };
 
 /* ------------------------------------------------------------------------------------------------
