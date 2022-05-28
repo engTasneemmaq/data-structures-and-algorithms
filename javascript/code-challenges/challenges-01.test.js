@@ -13,7 +13,8 @@ const addOne = (arr) =>{
    arr.forEach(element => {
      newArr.push(element+1)
    });
-   return newArr
+   return newArr;
+   
 }
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 2
@@ -124,7 +125,7 @@ const createList = (availableItems) => {
   let arrayOfList = [];
   availableItems.forEach((item) => {
     if (item.available === true) {
-      arrayOfList .push(item.name);
+      arrayOfList.push(item.name);
     }
   });
   return arrayOfList ;
