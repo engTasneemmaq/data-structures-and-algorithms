@@ -13,7 +13,8 @@ const addOne = (arr) =>{
    arr.forEach(element => {
      newArr.push(element+1)
    });
-   return newArr
+   return newArr;
+   
 }
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 2
