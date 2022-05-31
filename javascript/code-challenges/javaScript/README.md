@@ -19,7 +19,7 @@
 ----------------------------------------------------
 <br>
 
-## 1.Shift Array 📄
+## 2.Shift Array 📄
 ** we made a function called ShiftArray takes in an array and a value to be added. Without utilizing any of the built-in methods available to your language, return an array with the new value added at the middle index.
 <br>
 <br>
