@@ -25,6 +25,8 @@
 <br>
 
 ![shiftArray](./assest/shiftArray.png)
+
+![output](./assest/result.png)
 <br>
 
 ## Whiteboard Process: 🗒
