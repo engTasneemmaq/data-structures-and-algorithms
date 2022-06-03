@@ -1,32 +1,29 @@
 'use strict';
-const linkedListNode = require('../singlyLinkedList/linkedListNode');
+const Node = require('./node');
 
-class LinkedList {
+class Linkedlist {
   constructor() {
-    this.head  = null;
-  } 
-
-  insert(data) {
-    let newNode = new linkedListNode(data , this.head);
-    this.head = newNode;
+    this.head = null;
+  }
+  
+  insert(value) {
+    let newNode = new Node(value);
     if (!this.head) {
       this.head = newNode;
+     
       return this;
-  }
-  else {
-      // if the LL is not empty
-      let currentNode = this.head;
-      while (currentNode.next) {
-          currentNode = currentNode.next;
-      }
-      currentNode.next = newNode;
+    } else {
+      newNode.next = this.head;
+      this.head = newNode;
       return this;
+    }
   }
-}
-includes(value) {
-  let isIncludes = false;
+ 
+  includes(value) {
+    let isIncludes = false;
     let currentNode = this.head;
     while (currentNode) {
+    
       if (currentNode.value === value) {
         isIncludes = true;
       }
@@ -35,7 +32,7 @@ includes(value) {
     }
     return isIncludes;
   }
-
+ 
   toString() {
     let currentNode = this.head;
     let str = "";
@@ -48,4 +45,4 @@ includes(value) {
   }
 }
 
-module.exports = LinkedList;
+module.exports = Linkedlist;
