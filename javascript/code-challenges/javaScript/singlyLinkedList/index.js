@@ -1,11 +1,17 @@
-'use strict';
-const linkedList = require ("./linkedList")
+"use strict"
 
-const ll = new linkedList()
-ll.insert(10)
-ll.insert(20)
+const LinkedList = require ('./linkedList')
 
-console.log(ll);
-// console.log(ll.includes(10));
-// console.log(ll.includes(50));
-// console.log(ll.toString());
+const ll = new LinkedList();
+    ll.insert(100);
+    ll.insert(200);
+    ll.insert(300);
+    ll.insert(400);
+    ll.print();      result:100,200,300,400
+    ll.removeHead();    result:200,300,400
+    ll.includes(500);
+
+    console.log(ll);
+    console.log(ll.includes(500));
+    console.log(ll.includes(300));
+    console.log(ll.toString());
