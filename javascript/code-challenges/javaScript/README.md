@@ -94,4 +94,5 @@ Returns: a string representing all the values in the Linked List, formatted as:<
 "{ a } -> { b } -> { c } -> NULL"
 
 ![linked list test](./singlyLinkedList/testpass-linked-list.png)
+![node index.js](./singlyLinkedList/test.png)
 
