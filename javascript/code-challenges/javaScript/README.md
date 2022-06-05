@@ -96,3 +96,25 @@ Returns: a string representing all the values in the Linked List, formatted as:<
 ![linked list test](./singlyLinkedList/testpass-linked-list.png)
 ![node index.js](./singlyLinkedList/test.png)
 
+---------------------------------------------------------
+⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩
+##  array-binary-search :
+built the BinarySearch function to take in the desired inputs. we go through each element in a for loop checking to see if the element currently iterated on equals the second parameter value. if it does, pass the index of that value, if it never finds a match, return -1<br>
+
+
+## Challenge: 💪 💪
+Write a function called BinarySearch which takes in 2 parameters: a sorted array and the search key. Without utilizing any of the built-in methods available to your language, return the index of the array’s element that is equal to the search key, or -1 if the element does not exist.
+
+
+## Approach & Efficiency: ⏱⏱
+1.used for loop to revers the array with return result<br>
+2.The Big O time is O(n) and / Space is O(n)
+
+![binarry array](./assest/binary-array-1.png)
+
+![binary-array](./assest/binary-array.png)
+
+
+## Whiteboard Process: 🗒
+
+![binary array search](./assest/binary-whiteboard.png)
