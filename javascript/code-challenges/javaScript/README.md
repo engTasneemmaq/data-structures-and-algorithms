@@ -117,4 +117,4 @@ Write a function called BinarySearch which takes in 2 parameters: a sorted array
 
 ## Whiteboard Process: 🗒
 
-![binary array search](./assest/bin1.png)
+![binary array search](./assest/binarysearch.png)
