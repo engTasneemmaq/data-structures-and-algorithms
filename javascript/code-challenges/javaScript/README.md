@@ -108,8 +108,7 @@ Write a function called BinarySearch which takes in 2 parameters: a sorted array
 
 ## Approach & Efficiency: ⏱⏱
 1.used for loop to revers the array with return result<br>
-2.The Big O time is O(n) and / Space is O(n)
-
+2.The Big O time is O(log n) and / Space is O(1)
 ![binarry array](./assest/binary-array-1.png)
 
 ![binary-array](./assest/binary-array.png)
@@ -117,4 +116,4 @@ Write a function called BinarySearch which takes in 2 parameters: a sorted array
 
 ## Whiteboard Process: 🗒
 
-![binary array search](./assest/binary-whiteboard.png)
+![binary array search](./assest/whiteboard.png)
