@@ -9,7 +9,7 @@
 
 
 ## Whiteboard Process: 🗒
-![whiteBoard](./assest/whiteboard.png)
+<!-- ![whiteBoard](./assest/whiteboard.png) -->
 
 
 
