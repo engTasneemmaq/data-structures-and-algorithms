@@ -4,7 +4,8 @@
   "description": "See [setup instructions](https://codefellows.github.io/setup-guide/code-301/3-code-challenges), in the Code 301 Setup Guide.",
   "main": "index.js",
   "scripts": {
-    "test": "jest --coverage  "
+    "test": "jest --coverage  ",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,7 @@
   "dependencies": {
     "dotenv": "^16.0.1",
     "express": "^4.18.1",
+    "jest": "^28.1.1",
     "node-module": "^2.0.0",
     "node-modules": "^1.0.1"
   }
