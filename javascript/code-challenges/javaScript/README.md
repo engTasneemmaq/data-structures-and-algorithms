@@ -134,9 +134,9 @@ create a linked list class that has methods to append, insert before, and insert
 - The Big O time is O(n)
 - Space is O(1)<br>
 
-![linked list insertions](../assest/testll.png);
-![linked list insertions](../assest/testll2.png);
+![linked list insertions](./assest/testll.png);
+![linked list insertions](./assest/testll2.png);
 
 ## WhiteBoard:
 
-![whiteboard](../assest/ll-whiteboard.png)
+![whiteboard](./assest/ll-whiteboard.png)
