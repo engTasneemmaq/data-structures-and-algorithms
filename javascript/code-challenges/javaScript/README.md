@@ -180,6 +180,11 @@ return the new list
 ### Big O
 - The Big O time is O(1)
 - Space is O(n)<br>
+<br>
+
+## code ll-zip:
+[ll zip](../javaScript/linked-list-zip)<br>
+<br>
 
 
 ## WhiteBoard:
