@@ -191,3 +191,7 @@ return the new list
 ![linked list zip](./assest/linked-list-zip-whiteboard.png)
 
 ![result](./assest/zip-1.png)
+
+
+
+
