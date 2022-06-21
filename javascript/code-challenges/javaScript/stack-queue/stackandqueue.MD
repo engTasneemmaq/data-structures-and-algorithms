@@ -13,6 +13,7 @@ Implementation: Stacks and Queues<br>
 -----------------------------------
 ![img index.js](../assest/qu.index.png)<br>
 ![img result](../assest/que1.png)<br>
+![test pass](../assest/testpass.png)
 
 ## Challenge💪 💪
 Create a stack and queue with all operiations that could be applied on them.

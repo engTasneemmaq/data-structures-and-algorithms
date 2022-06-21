@@ -60,13 +60,10 @@ describe('Stack Model', () => {
         expect(stack instanceof Stack).toBeTruthy();
     });
 
-    it('Calling pop or peek on empty stack raises exception', () => {
+    it('Calling pop or peek on empty queue raises exception', () => {
         let stack = new Stack();
-        let stack1 = stack.peek();
-        let stack2= stack.pop();
-
-        expect(stack1).toBe('Exception');
-        expect(stack2).toBe('Exception');
-    });
+        expect(() => stack.pop()).toBeNull;
+        expect(() => stack.peek()).toBeNull;
+      });
 
 });
