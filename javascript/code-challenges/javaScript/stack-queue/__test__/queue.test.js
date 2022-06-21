@@ -46,13 +46,10 @@ describe('Queue Model', () => {
     });
 
     it('Calling dequeue or peek on empty queue raises exception', () => {
-        let que = new Queue();
-        let item1 = que.peek();
-        let item2 = que.dequeue();
-
-        expect(item1).toBe('Exception');
-        expect(item2).toBe('Exception');
-    });
+        let queue = new Queue();
+        expect(() => queue.dequeue()).toBeNull;
+        expect(() => queue.peek()).toBeNull;
+      });
 
 
 
