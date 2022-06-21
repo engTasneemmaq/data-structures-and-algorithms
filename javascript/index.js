@@ -1,31 +1,30 @@
 
-"use strict"
+// "use strict"
 
 // const Stack = require ('./code-challenges/javaScript/stack-queue/stack')
 
 // const stack = new Stack();
-// stack.isEmpty();
 // stack.push(4);
 // stack.print(4);
 // stack.push(8);
-// console.log(stack.peek());
+// // console.log(stack.peek());
 // stack.print(8);
 // stack.push(16);
 // stack.print(16);
 // stack.push(32);
-// // console.log(stack.peek());
 
-// stack.pop();
-// stack.peek();
-// // stack.print();
-// stack.isEmpty();
 
-const Queue = require("./code-challenges/javaScript/stack-queue/queue")
+const Queue = require("./code-challenges/javaScript/stack-queue/queue/queue")
 
 const que = new Queue();
-que.enqueue(2).enqueue(3).enqueue(3232)
-console.log(que);
+que.enqueue(1);
+que.enqueue(2);
+que.enqueue(3);
+console.log("front is",que.peek());  
+// result 1
 que.dequeue();
+console.log("front is" ,que.peek());  
+// result 2
 
 
 

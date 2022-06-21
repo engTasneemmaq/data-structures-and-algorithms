@@ -7,8 +7,12 @@ Implementation: Stacks and Queues<br>
 [stack node.js](./node.js)<br>
 [queues queues.js](./queue.js)<br>
 
+![stack index.js](../assest/stack.index.png)<br>
+![stack result](../assest/stack.result.png)<br>
 
-
+-----------------------------------
+![queue index.js](../assest/qu.index.png)<br>
+![queue result](../assest/que1.png)<br>
 
 ## Challenge💪 💪
 Create a stack and queue with all operiations that could be applied on them.
@@ -35,5 +39,3 @@ peek that does not take an argument and returns the value of the node located in
 
 isEmpty that takes no argument, and returns a boolean indicating whether or not the queue is empty.
 
-
-## WhiteBoard:
