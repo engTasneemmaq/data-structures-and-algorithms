@@ -3,17 +3,17 @@
 ## stack-and-queue
 Implementation: Stacks and Queues<br>
 
-[code stack.js](./stack/stack.js)<br> <br>
-[code node.js](./stack/node.js)<br>
-[code queues.js](./queue/queue.js)<br>
+⏩ ⏩ [code stack.js](./stack/stack.js)<br> <br>
+⏩ ⏩ [code node.js](./stack/node.js)<br>
+⏩ ⏩ [code queues.js](./queue/queue.js)<br>
 
-![img index.js](../assest/stack.index.png)<br>
-![img result](../assest/stack.result.png)<br>
+📷 ![img index.js](../assest/stack.index.png)<br>
+📷![img result](../assest/stack.result.png)<br>
 
 -----------------------------------
-![img index.js](../assest/qu.index.png)<br>
-![img result](../assest/que1.png)<br>
-![test pass](../assest/testpass.png)
+📷 ![img index.js](../assest/qu.index.png)<br>
+📷 ![img result](../assest/que1.png)<br>
+📷 ![test pass](../assest/testpass.png)
 
 ## Challenge💪 💪
 Create a stack and queue with all operiations that could be applied on them.

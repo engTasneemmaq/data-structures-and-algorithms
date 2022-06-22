@@ -3,6 +3,11 @@ const Queue = require('../queue/queue');
 
 
 describe('Queue Model', () => {
+    it('Can successfully enqueue into a queue', () => {
+        let que = new Queue();
+        que.enqueue(1);
+        expect(que.front.value).toBe(1);
+      });
 
     it('Can successfully enqueue multiple values into a queue', () => {
         let que = new Queue();
@@ -29,16 +34,16 @@ describe('Queue Model', () => {
         que.enqueue(3);
         expect(que.peek()).toEqual(1);
     });
-    it('Can successfully empty a queue after multiple dequeues', () => {
+   
+    it('Can successfully dequeue out of a queue the expected value', () => {
         let que = new Queue();
         que.enqueue(1);
         que.enqueue(2);
         que.enqueue(3);
-        que.dequeue()
-        que.dequeue()
-        que.dequeue()
-        expect(que.isEmpty()).toEqual(true);
-    });
+        que.enqueue(4);
+        que.enqueue(5);
+        expect(que.dequeue()).toBe(1);
+      });
 
     it('Can successfully instantiate an empty queue ', () => {
         let que = new Queue();

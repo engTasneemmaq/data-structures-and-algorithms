@@ -1,3 +1,32 @@
+"use strict"
+
+const PseudoQueue =require("./code-challenges/javaScript/stack-queue-pseudo/pseudo-queue");
+const Stack = require("./code-challenges/javaScript/stack-queue-pseudo/stack");
+
+let newStack = new Stack();
+newStack.push(5);
+newStack.push(10)
+newStack.push(15)
+newStack.push(20)
+newStack.push(30)
+
+newStack.pop();
+
+
+console.log(newStack.peek())
+
+let que = new PseudoQueue();
+que.enqueue(15);
+que.enqueue(20);
+que.dequeue();
+que.dequeue();
+let result = que.stack1
+console.log("result", result);
+
+
+
+
+
 
 // "use strict"
 
@@ -14,17 +43,17 @@
 // stack.push(32);
 
 
-const Queue = require("./code-challenges/javaScript/stack-queue/queue/queue")
+// const Queue = require("./code-challenges/javaScript/stack-queue/queue/queue")
 
-const que = new Queue();
-que.enqueue(1);
-que.enqueue(2);
-que.enqueue(3);
-console.log("front is",que.peek());  
-// result 1
-que.dequeue();
-console.log("front is" ,que.peek());  
-// result 2
+// const que = new Queue();
+// que.enqueue(1);
+// que.enqueue(2);
+// que.enqueue(3);
+// console.log("front is",que.peek());  
+// // result 1
+// que.dequeue();
+// console.log("front is" ,que.peek());  
+// // result 2
 
 
 
