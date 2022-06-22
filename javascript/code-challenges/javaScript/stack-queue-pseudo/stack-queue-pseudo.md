@@ -31,3 +31,7 @@ time and space for all operations : O(1);
 1. enqueue which takes any value as an argument and adds a new node with that value to the back of the queue with an O(1) Time performance.
 
 2. dequeue that does not take any argument, removes the node from the front of the queue, and returns the node’s value.
+
+
+## WhiteBoard : 
+![whightboard](../assest/quewithst.png)
