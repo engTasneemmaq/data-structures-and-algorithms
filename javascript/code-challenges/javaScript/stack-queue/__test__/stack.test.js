@@ -2,7 +2,7 @@
 const Stack = require('../stack/stack');
 
 describe('Stack Model', () => {
-
+   
 
     it('Can successfully push onto a stack', () => {
         let stack = new Stack();

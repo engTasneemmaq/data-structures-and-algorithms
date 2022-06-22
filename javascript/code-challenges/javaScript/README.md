@@ -192,6 +192,16 @@ return the new list
 
 ![result](./assest/zip-1.png)
 
+---------------------------------
+⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩
+## stack-and-queue
+[stack-and-queue](./stack-queue//stackandqueue.MD)
+
+
+---------------------------------
+⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩
+## stack-queue-pseudo
+[stack-queue-pseudo](./stack-queue-pseudo/stack-queue-pseudo.md)
 
 
 
