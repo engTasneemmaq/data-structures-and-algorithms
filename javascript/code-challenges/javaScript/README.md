@@ -204,4 +204,10 @@ return the new list
 [stack-queue-pseudo](./stack-queue-pseudo/stack-queue-pseudo.md)
 
 
+---------------------------------
+⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩
+## stack-queue-animal-shelter
+[stack-queue-animal-shelter](../javaScript/animal-shelter/animal-shelter.md)
+
+
 
