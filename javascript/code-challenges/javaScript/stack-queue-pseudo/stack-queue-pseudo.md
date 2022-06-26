@@ -34,4 +34,4 @@ time and space for all operations : O(1);
 
 
 ## WhiteBoard : 
-![whightboard](../assest/quewithst.png)
+![whiteboard](../assest/quewithst.png)
