@@ -210,4 +210,13 @@ return the new list
 [stack-queue-animal-shelter](../javaScript/animal-shelter/animal-shelter.md)
 
 
+---------------------------------
+⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩
+
+stack-queue-brackets
+
+[stack-queue-brackets.md ](../javaScript/stack-queue-brackets/stack-queue-brackets.md)
+
+
+
 
