@@ -8,7 +8,7 @@ make a function called validate brackets, the function should check if the brack
 
 
 ## Approach & Efficiency ⏱⏱
-space O(1)/time O(1)
+space O(n)/time O(1)
 
 
 
