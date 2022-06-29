@@ -2,42 +2,25 @@
 
 const bracketValdiation = require('../stack-queue-brackets');
 
-describe('validateBrackets', () => {
-    it('Brackets in the string are balanced ', () => {
-        let test = bracketValdiation('[({})]')
+describe('brackets validation test', () => {
+    it('Return true for valid brackets', () => {
 
-        expect(test).toBe(true);
+      expect(bracketValdiation('{}')).toBe(true);
+
+      expect(bracketValdiation('{}(){}')).toBe(true);
+
+      expect(bracketValdiation('()[[Extra Characters]]')).toBe(true);
+
+      expect(bracketValdiation('(){}[[]]')).toBe(true);
+
+      expect(bracketValdiation('{}{Code}[Fellows](())')).toBe(true);
     });
+    
+    it('Return false for invalid brackets', () => {
+      expect(bracketValdiation('[({}]')).toBe(false);
 
-    it('Brackets in the string are balanced ', () => {
-        let test = bracketValdiation('{}')
+      expect(bracketValdiation('(](')).toBe(false);
 
-        expect(test).toBe(true);
+      expect(bracketValdiation('{(})')).toBe(false);
     });
-
-    it('Brackets in the string are balanced ', () => {
-        let test = bracketValdiation('(){}[[]]')
-
-        expect(test).toBe(true);
-    });
-
-    it('Brackets in the string are balanced ', () => {
-        let test = bracketValdiation('[({}]')
-
-        expect(test).toBe(false);
-    });
-
-    it('Brackets in the string are balanced ', () => {
-        let test = bracketValdiation('(](')
-
-        expect(test).toBe(false);
-    });
-
-    it('Brackets in the string are balanced ', () => {
-        let test = bracketValdiation('{(})')
-
-        expect(test).toBe(false);
-    });
-
-
-})
+  });
