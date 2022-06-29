@@ -17,4 +17,4 @@ space O(n)/time O(1)
 ![whiteboard](../assest/brackets.png)
 
 ## test brackets:
-![test pass](../assest/bracket.test.png)
+![test pass](../assest/test-pass-brackets.png)
