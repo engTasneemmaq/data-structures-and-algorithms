@@ -43,6 +43,9 @@ Binary Tree preOrder: it creates a tree (Root - Left - Right) inOrder: it create
 Binary Search Tree add: it creates a sorted tree. contain: it finds if a specific value is in the tree.
 
 
+
+
+⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩
 [binary-tree.js code](./binary-tree.js)
 
 

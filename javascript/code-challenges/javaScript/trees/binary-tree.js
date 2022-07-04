@@ -1,6 +1,7 @@
 "use strict";
 const Node = require('./node');
 
+
 class BinaryTree {
     constructor (root =null){
         this.root= root;
@@ -57,9 +58,25 @@ traverse(this.root);
 return result;
 }
 
+
+max_value(){
+    let max = 0 ;
+    let traverse = (node) =>{
+        
+        //  if left go left
+        if(node.left) traverse (node.left);
+        //  if right go right
+        if(node.right) traverse (node.right)
+       
+        if (node.value > max ) max= node.value;
+
+    }
+    traverse(this.root);
+    
+    return max;
 }
-
-
+     
+    }
 
 module.exports = BinaryTree;
 
@@ -88,6 +105,7 @@ three.right = five;
 
 tree = new BinaryTree(one);
 
+
 let preOrder = tree.preOrder();
 console.log('pre order: ', preOrder);
 //pre order > 1 , 2 , 6 , 7 , 8 , 9 , 3 , 4 , 5
@@ -100,6 +118,11 @@ console.log('in order: ', inOrder);
 let postOrder = tree.postOrder();
 console.log('post order: ', postOrder);
 //post order > 8 , 9 , 7 , 6 , 2 , 4 , 5 , 3 , 1
+
+
+let max_value= tree.max_value();
+console.log("max value", max_value);
+
 
 
 
