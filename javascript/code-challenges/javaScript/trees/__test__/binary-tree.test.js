@@ -89,5 +89,9 @@ it('For a Binary Search Tree, can successfully add a left child and right child 
     expect(BTS.root.right.value).toEqual(17);
   });
    
+  it(  "test max node in binary search tree", () => {
+    let max_value= tree.max_value();
+    expect(max_value).toEqual(9);
+  });
 
 });
