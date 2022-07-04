@@ -22,15 +22,15 @@ Binary Tree>>
 
 ## whiteboard >>
 
-![max-tree](../assest/Whiteboard%20(1).png)
+![max-tree](./assest/Whiteboard(1).png)
 
 
 [binary-tree include max-value  >>>>>>> code](./binary-tree.js)
 
 
 
-![test pass](../assest/max-pass-test.png)
+![test pass](./assest/max-pass-test.png)
 
 
 
-![result  max](../assest/max-tree.png)
+![result  max](./assest/max-tree.png)
