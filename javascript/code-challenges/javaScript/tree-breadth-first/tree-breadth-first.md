@@ -18,7 +18,7 @@ Big O for time = O(n) Big O for Space = O(w) depend on widgth of the line
 
 
 ## Whiteboard 
-![BFT](../assest/Whiteboard-BFT.png)
+![BFT](../assest/WhiteboardBFT.png)
 
 
 
@@ -27,10 +27,10 @@ Big O for time = O(n) Big O for Space = O(w) depend on widgth of the line
 
 <BR>
 
-![BST](../assest/result-BST.png)
+![BST](../assest/1BST.png)
 
 ------------------------------------
 
-![BST test pass](../assest/test-BFT.png)
+![BST test pass](../assest/ABFT.png)
 
 
