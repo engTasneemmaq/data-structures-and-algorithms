@@ -1,27 +1,38 @@
-"use strict"
-
-const PseudoQueue =require("./code-challenges/javaScript/stack-queue-pseudo/pseudo-queue");
-const Stack = require("./code-challenges/javaScript/stack-queue-pseudo/stack");
-
-let newStack = new Stack();
-newStack.push(5);
-newStack.push(10)
-newStack.push(15)
-newStack.push(20)
-newStack.push(30)
-
-newStack.pop();
 
 
-console.log(newStack.peek())
 
-let que = new PseudoQueue();
-que.enqueue(15);
-que.enqueue(20);
-que.dequeue();
-que.dequeue();
-let result = que.stack1
-console.log("result", result);
+
+
+
+
+
+
+// "use strict"
+
+// const PseudoQueue =require("./code-challenges/javaScript/stack-queue-pseudo/pseudo-queue");
+// const Stack = require("./code-challenges/javaScript/stack-queue-pseudo/stack");
+
+// let newStack = new Stack();
+// newStack.push(5);
+// newStack.push(10)
+// newStack.push(15)
+// newStack.push(20)
+// newStack.push(30)
+
+// newStack.pop();
+
+
+// console.log(newStack.peek())
+
+// let que = new PseudoQueue();
+// que.enqueue(15);
+// que.enqueue(20);
+// que.dequeue();
+// que.dequeue();
+// let result = que.stack1
+// console.log("result", result);
+
+
 
 
 
