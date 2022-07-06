@@ -23,6 +23,7 @@ Big O for time = O(n) Big O for Space = O(w) depend on widgth of the line
 
 ## result image>>>>>>
 
+
 ![test](../trees/assest/1BST.png)
 
 
