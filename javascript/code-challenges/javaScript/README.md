@@ -232,4 +232,13 @@ tree-breadth-first>>>>>>
 [tree breadth first.md](./tree-breadth-first/tree-breadth-first.md)
 
 
+⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩
+
+tree-fuzz-buzz>>>>>>>>>>>>>>>>>
+
+[tree fuzz buzz](./tree-fizz-buzz/tree-fizz-buzz.md)
+
+
+
+
 
