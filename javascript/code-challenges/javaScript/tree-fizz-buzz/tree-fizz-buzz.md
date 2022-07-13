@@ -14,7 +14,7 @@
 ## Approach & Efficiency
 Time complexity: O(n) >>>>> because of searching through all nodes in a tree.
 
-Space complexity: O(n)>>>>> because of using a Queue.
+Space complexity: O(n)
 
 ## WhiteBoard >>
 ![tree fizz buzz](../assest/fizzbuzztree.png)
