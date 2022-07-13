@@ -20,3 +20,10 @@ Space complexity: O(n)>>>>> because of using a Queue.
 ![tree fizz buzz](../assest/fizzbuzztree.png)
 
 
+
+
+<br>
+
+![test fizz buzz tree](../assest/test-fizz-buzz.png)
+
+
