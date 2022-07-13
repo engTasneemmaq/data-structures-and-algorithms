@@ -12,8 +12,7 @@
 
 
 ## Approach & Efficiency
-Time complexity: O(n) >>>>> because of searching through all nodes in a tree.
-
+Time complexity: O(n)
 Space complexity: O(n)
 
 ## WhiteBoard >>
