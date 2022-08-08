@@ -34,11 +34,18 @@ Time: O(n^2) Space: O(1)
      
  <br>
 
+ ## Insertion Sort Code >>>>
+
+ [code link](./insertionSort.js)
+
+<br>
 
 ## test 
+
 ![test done](../assest/testinsertionSort-done.png)
 
 
 <br>
+
 
 ![sol](../assest/sol.png)

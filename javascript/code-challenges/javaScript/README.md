@@ -240,5 +240,9 @@ tree-fuzz-buzz>>>>>>>>>>>>>>>>>
 
 
 
+⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩
 
+Insertion Sort>>>>>>>>>>>>>>>>>>
+
+[Insertion Sort](./insertionSort/insertionSort.md)
 
