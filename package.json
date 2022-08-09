@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/engTasneemmaq/data-structures-and-algorithms#readme",
   "dependencies": {
+    "build": "^0.1.4",
     "dotenv": "^16.0.1",
     "express": "^4.18.1",
     "jest": "^28.1.1",
