@@ -35,6 +35,9 @@ Time: O(n^2) Space: O(1)
      
  <br>
 
+ ## WhiteBoard >>>
+![Insertion Sort](../assest/insertionSort.png)
+
  ## Insertion Sort Code >>>>
 
  [code link](./insertionSort.js)
