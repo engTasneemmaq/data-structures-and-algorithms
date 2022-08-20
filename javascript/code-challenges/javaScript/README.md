@@ -246,3 +246,10 @@ Insertion Sort>>>>>>>>>>>>>>>>>>
 
 [Insertion Sort](./insertionSort/insertionSort.md)
 
+
+⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩
+
+hashtable >>>>>>>>>>>>>>>
+
+[hashtable](./hashtable/hashtable.js)
+
