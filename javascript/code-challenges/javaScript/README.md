@@ -253,3 +253,9 @@ hashtable >>>>>>>>>>>>>>>
 
 [hashtable](./hashtable/hashtable.js)
 
+
+⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩
+
+hashmap-repeated-word>>>
+
+[hashmap repeated word](./hashmap-repeated-word//repeated-word.js)
