@@ -80,17 +80,17 @@ max_value(){
 }
 
 
-    function sumOdd(node, sum = 0) {
-        if (node === null) {
-            return 0;
-        } else {
-            if (node.value % 2 != 0) {
-                sum += node.value;
-            }
-        }
-        return sum + sumOdd(node.left) + sumOdd(node.right);
-    }
-    return sumOdd(BinaryTree.root);
+    // function sumOdd(node, sum = 0) {
+    //     if (node === null) {
+    //         return 0;
+    //     } else {
+    //         if (node.value % 2 != 0) {
+    //             sum += node.value;
+    //         }
+    //     }
+    //     return sum + sumOdd(node.left) + sumOdd(node.right);
+    // }
+    // return sumOdd(BinaryTree.root);
 
 
 module.exports = BinaryTree;
