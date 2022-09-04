@@ -74,23 +74,25 @@ class Graph {
 
 
     breadthFirst(vertex) {
-
-        if (!vertex) return null;
-        const queue = [vertex];
-        const visited = [];
-        let current;
-    
+        const queue = [];
+        const vistedNodes = new Set();
+        queue.push(vertex);
+        vistedNodes.add(vertex);
         while (queue.length) {
-          console.log(queue.length);
-          current = queue.pop();
-          let edges = this.adjacencyList.get(current);
-          for (let i = 0; i < edges.length; i++) {
-            if (!visited.includes(edges[i][0])) queue.unshift(edges[i][0]);
-          }
-          if (!visited.includes(current)) visited.push(current);
+            const currentNode = queue.shift();
+            const neighbors = this.getNeighbours(currentNode);
+            for (let neighbor of neighbors) {
+                const neighborNode = neighbor.vertex;
+                if (vistedNodes.has(neighborNode)) {
+                    continue;
+                } else {
+                    vistedNodes.add(neighborNode);
+                }
+                queue.push(neighborNode);
+            }
         }
-        return visited;
-      }
+        return vistedNodes;
+    }
 }
 
 
@@ -117,4 +119,6 @@ graph.addDirectedEdge(three, six);
 
 console.log(graph.getNeighbours(two));
 
+
+console.log(graph.breadthFirst(two));
 module.exports = Graph
